@@ -1,0 +1,12 @@
+chat_server/
+├── src/
+│   ├── server.c
+│   ├── client.c
+│   ├── libtslog.c
+│   └── libtslog.h
+├── include/
+│   └── common.h
+├── Makefile
+├── README.md
+└── scripts/
+    └── test_clients.bat
