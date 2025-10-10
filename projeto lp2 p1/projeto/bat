@@ -1,0 +1,12 @@
+@echo off
+echo Iniciando teste de múltiplos clientes...
+echo.
+
+start cmd /k "bin\client.exe 127.0.0.1 8080"
+timeout /t 2
+start cmd /k "bin\client.exe 127.0.0.1 8080"
+timeout /t 2
+start cmd /k "bin\client.exe 127.0.0.1 8080"
+
+echo Teste iniciado! Pressione qualquer tecla para fechar...
+pause > nul
